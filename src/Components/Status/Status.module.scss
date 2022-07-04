@@ -1,0 +1,25 @@
+.status {
+	color: white;
+	text-align: center;
+	padding: 5px;
+	background-color: #ad1111;
+	font-size: 14px;
+	width: 160px;
+	border-radius: 8px;
+	margin: 0 auto;
+	&__new {
+		background-color: #b94a48;
+	}
+	&__assigned_to {
+		background-color: #3276b1;
+	}
+	&__completed {
+		background-color: #c79121;
+	}
+	&__started {
+		background-color: #3cb043;
+	}
+	&__declined {
+		background-color: #252525;
+	}
+}
