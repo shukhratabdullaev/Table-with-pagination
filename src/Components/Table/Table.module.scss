@@ -27,24 +27,24 @@
 .tableRowItems {
 	cursor: pointer;
 	&:hover {
-		background-color: #D3D3D3;
-		transition: .2s ease-out;
+		background-color: #d3d3d3;
+		transition: 0.2s ease-out;
 	}
 	&:nth-child(odd) {
 		background-color: #f9f9f9;
 		&:hover {
-		background-color: #D3D3D3;
-		transition: .2s ease-out;
-	}
+			background-color: #d3d3d3;
+			transition: 0.2s ease-out;
+		}
 	}
 }
 .tableCell {
 	padding: 12px;
 	color: grey;
 	font-size: 16px !important;
-	width: 700px;
 
 	&_inner {
+		width: 400px;
 		color: black;
 		white-space: nowrap;
 		overflow: hidden;
