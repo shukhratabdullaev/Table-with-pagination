@@ -105,7 +105,10 @@ export const CustomPaginationTable = ({ data }: { data: OrderType[] }) => {
                 fontWeight: "400",
                 color: 'gray',
                 fontSize: '14px'
-              }
+              },
+              ".MuiTablePagination-toolbar": {
+                paddingRight: '32px'
+              },
             }}
           />
         </tr>
